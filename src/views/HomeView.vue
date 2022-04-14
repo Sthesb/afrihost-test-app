@@ -14,7 +14,7 @@
             <tr v-for="vehicle in vehicles_data" :key="vehicle.id">
                 <td >
                   <div class="avatar">
-                    <avatar :size="60" :fullname="vehicle.name" color="#cad7f9"></avatar>
+                    <avatar :size="60" :fullname="vehicle.model" color="#cad7f9"></avatar>
                     <div>
                       <h4>{{ vehicle.name }}</h4>
                       <p>#{{ vehicle.trips }}</p>
